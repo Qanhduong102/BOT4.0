@@ -4,7 +4,6 @@ import random
 import requests
 from datetime import date, timedelta
 import webbrowser
-import time
 from geopy.geocoders import Nominatim
 import datetime
 import os
