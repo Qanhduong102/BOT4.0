@@ -10,8 +10,8 @@ import datetime
 import os
 
 # Cấu hình server
-HOST = '0.0.0.0'  # Địa chỉ IP server (localhost)
-PORT = int(os.getenv("PORT", 12345))
+HOST = '0.0.0.0'  # Lắng nghe mọi kết nối
+PORT = int(os.getenv("PORT", 12345))  # Lấy cổng từ biến môi trường hoặc dùng mặc định là 12345
 
 # Hàm lấy thời gian chính xác
 def get_time():
